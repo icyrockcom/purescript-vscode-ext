@@ -1,0 +1,8 @@
+.gitignore
+.pulp-cache
+.purs-repl
+.vscode/**
+.vscode-test/**
+src/**
+test/**
+**/*.map

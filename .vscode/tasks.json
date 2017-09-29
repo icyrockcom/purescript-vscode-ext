@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "command": "npm",
+    "type": "shell",
+    "presentation": {
+        "reveal": "silent"
+    },
+    "args": [
+        "run",
+        "watch"
+    ],
+    "isBackground": true,
+    "problemMatcher": {
+        "pattern": {
+           "regexp": "\\* ERROR:.*" 
+        },
+        "background": {
+            "beginsPattern": "\\* Building project in.*",
+            "endsPattern": "\\* Build successful.*"
+        }
+    }
+}
+
